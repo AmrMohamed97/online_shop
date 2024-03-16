@@ -13,7 +13,6 @@ class ProductGrid extends StatelessWidget {
       borderRadius: BorderRadius.circular(16),
       child: GridTile(
         footer: GridTileBar(
-          backgroundColor: Colors.black54,
           leading: Consumer<Product>(
             builder: (context, provider,_) {
               return IconButton(onPressed: () {
